@@ -23,7 +23,7 @@ Summary
 - Boilerplate Code
 
 ```c
-#include<stdio.h>
+#include<stdio.h> 
 int main()
 {
  return(0);
@@ -161,6 +161,30 @@ Iterative statements facilitate programmers to execute any block of code lines r
 ```c
 while{ (/*condition*/)
 /*code*/}
+int =5;
+while(i!=0){
+    i--;
+}
+
+do{
+    i--;
+    printf(i);
+}while(i!=0)
+    
+4
+    3
+    2
+    1
+    0 break
+    
+    4
+    3
+    2
+    1
+    0
+    break
+    
+            
 ```
 
 - do-while loop: It is an exit controlled loop. It is very similar to the while loop with one difference, i.e., the bodyof the do-while loop is executed at least once even if the expression is false
@@ -225,6 +249,11 @@ An array is a collection of data items of the same type.
 
 ```c
 data_type array_name[array_size];
+
+int array[5]= {1,2,3,4,5,6}
+array[0] = 0;
+array[5] = 6;
+array[i++
 ```
 
 - Accessing element
@@ -241,6 +270,8 @@ A string is a 1-D character array terminated by a null character ('\0')
 
 ```c
 char str_name[size];
+char name[4] = {n,h,o,n, , a}
+
 ```
 
 - gets() function: It allows you to enter multi-word string
@@ -252,14 +283,12 @@ gets("string");
 - puts() function: It is used to show string output
 
 ```c
-
 puts("string");
 ```
 
 - String Functions strlen(): It is used to calculate the length of the string
 
 ```c
-
 strlen(string_name);
 ```
 
