@@ -29,7 +29,6 @@ void Tich(int n)
     printf("\n");
 }
 
-// bug
 void TongPhanSo(int n)
 {
     float s = 0;

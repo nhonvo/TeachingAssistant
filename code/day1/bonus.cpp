@@ -77,11 +77,12 @@ int Min(int arr[], int n)
 }
 int main()
 {
-    int a[10] = {1, 2, 3, 13, 5, 6, 7, 8, 9, 10};
+    int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int n = 10;
     Output(a, n);
-    // DeletePrime(a, n);
-    int min = Min(a, n);
-    Insert(a, n, 100, min);
+    DeletePrime(a, n);
+    // int min = Min(a, n);
+    // Insert(a, n, 100, min);
+    // printf(CheckPrime(2) ? "true" : "false");
     Output(a, n);
 }
