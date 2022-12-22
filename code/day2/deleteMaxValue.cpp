@@ -23,8 +23,8 @@ int MaxElement(int a[], int n)
 }
 int main()
 {
-    int a[4] = {1, 2, 3, 4};
-    int n = 4, index;
+    int a[5] = {1, 2, 3, 9, 9};
+    int n = 5, index;
     // scanf("%d", &n);
     // for (int i = 0; i < n; i++)
     //     scanf("%d", &a[i]);
